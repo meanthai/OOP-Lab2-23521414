@@ -1,0 +1,97 @@
+*Test1: 
++) Input: 
+'''
+Nhap hoanh do va tung do cua diem: 2 3
+Nhap so luong yeu cau - n: 1
+Nhap yeu cau x - (1, 2, 3): 1
+'''
++) Output:
+'''
+Nhap hoanh do va tung do cua diem: 2 3
+Nhap so luong yeu cau - n: 1
+Nhap yeu cau x - (1, 2, 3): 1
+Toa do diem sau khi thuc hien chi thi: (4,6)
+'''
+-----------------------
+*Test2: 
++) Input: 
+'''
+Nhap hoanh do va tung do cua diem: -5 7
+Nhap so luong yeu cau - n: 1
+Nhap yeu cau x - (1, 2, 3): 2
+'''
++) Output:
+'''
+Nhap hoanh do va tung do cua diem: -5 7
+Nhap so luong yeu cau - n: 1
+Nhap yeu cau x - (1, 2, 3): 2
+Toa do diem sau khi thuc hien chi thi: (0,0)
+'''
+-----------------------
+*Test3: 
++) Input: 
+'''
+Nhap hoanh do va tung do cua diem: 1 1
+Nhap so luong yeu cau - n: 1
+Nhap yeu cau x - (1, 2, 3): 3
+Nhap huong tinh tien k (0: theo truc x, 1: theo truc y): 0
+Nhap do tinh tien d: 5
+
+'''
++) Output:
+'''
+Nhap hoanh do va tung do cua diem: 1 1
+Nhap so luong yeu cau - n: 1
+Nhap yeu cau x - (1, 2, 3): 3
+Nhap huong tinh tien k (0: theo truc x, 1: theo truc y): 0
+Nhap do tinh tien d: 5
+Toa do diem sau khi thuc hien chi thi: (6,1)
+'''
+-----------------------
+*Test4: 
++) Input: 
+'''
+Nhap hoanh do va tung do cua diem: 0 0
+Nhap so luong yeu cau - n: 2
+Nhap yeu cau x - (1, 2, 3): 3
+Nhap huong tinh tien k (0: theo truc x, 1: theo truc y): 1
+Nhap do tinh tien d: 10
+Nhap yeu cau x - (1, 2, 3): 3
+Nhap huong tinh tien k (0: theo truc x, 1: theo truc y): 1
+Nhap do tinh tien d: -5
+'''
++) Output:
+'''
+Nhap hoanh do va tung do cua diem: 0 0
+Nhap so luong yeu cau - n: 2
+Nhap yeu cau x - (1, 2, 3): 3
+Nhap huong tinh tien k (0: theo truc x, 1: theo truc y): 1
+Nhap do tinh tien d: 10
+Nhap yeu cau x - (1, 2, 3): 3
+Nhap huong tinh tien k (0: theo truc x, 1: theo truc y): 1
+Nhap do tinh tien d: -5
+Toa do diem sau khi thuc hien chi thi: (0,5)
+'''
+-----------------------
+*Test5: 
++) Input: 
+'''
+Nhap hoanh do va tung do cua diem: 2 3
+Nhap so luong yeu cau - n: 3
+Nhap yeu cau x - (1, 2, 3): 1
+Nhap yeu cau x - (1, 2, 3): 2
+Nhap yeu cau x - (1, 2, 3): 3
+Nhap huong tinh tien k (0: theo truc x, 1: theo truc y): 0
+Nhap do tinh tien d: 7
+'''
++) Output:
+'''
+Nhap hoanh do va tung do cua diem: 2 3
+Nhap so luong yeu cau - n: 3
+Nhap yeu cau x - (1, 2, 3): 1
+Nhap yeu cau x - (1, 2, 3): 2
+Nhap yeu cau x - (1, 2, 3): 3
+Nhap huong tinh tien k (0: theo truc x, 1: theo truc y): 0
+Nhap do tinh tien d: 7
+Toa do diem sau khi thuc hien chi thi: (7,0)
+'''
