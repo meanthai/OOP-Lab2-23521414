@@ -1,1 +1,361 @@
 
+*Test1: 
++) Input: 
+'''
+3
+Alice Nguyen
+20210001
+1 1 2001
+5.0
+4.5
+3.0
+
+Bob Le
+20210002
+15 3 2000
+8.0
+7.0
+6.0
+
+Charlie Pham
+20210003
+5 12 1999
+6.5
+4.0
+2.5
+'''
++) Output:
+'''
+Nhap so luong thi sinh: 3
+
+Nhap thong tin thi sinh thu 1:
+Nhap ten: Alice Nguyen
+Nhap MSSV: 20210001
+Nhap ngay sinh (dd mm yyyy): 1 1 2001
+Nhap diem Toan: 5
+Nhap diem Van: 4.5
+Nhap diem Anh: 3
+
+Nhap thong tin thi sinh thu 2:
+Nhap ten: Bob Le
+Nhap MSSV: 20210002
+Nhap ngay sinh (dd mm yyyy): 15 3 2000
+Nhap diem Toan: 8
+Nhap diem Van: 7
+Nhap diem Anh: 6
+
+Nhap thong tin thi sinh thu 3:
+Nhap ten: Charlie Pham
+Nhap MSSV: 20210003
+Nhap ngay sinh (dd mm yyyy): 5 12 1999
+Nhap diem Toan: 6.5
+Nhap diem Van: 4
+Nhap diem Anh: 2.5
+
+Danh sach thi sinh co tong diem lon hon 15:
+Ten: Bob Le
+MSSV: 20210002
+Ngay sinh: 15/3/2000
+Diem Toan: 8, Diem Van: 7, Diem Anh: 6
+Tong diem: 21
+
+Thong tin thi sinh co tong diem cao nhat (MSSV: 20210002):
+Ten: Bob Le
+MSSV: 20210002
+Ngay sinh: 15/3/2000
+Diem Toan: 8, Diem Van: 7, Diem Anh: 6
+Tong diem: 21
+'''
+-----------------------
+*Test2: 
++) Input: 
+'''
+2
+Danh Tran
+20210004
+7 7 2002
+4.0
+3.5
+2.0
+
+Emily Vo
+20210005
+10 5 2001
+5.0
+4.0
+3.5
+'''
++) Output:
+'''
+Nhap so luong thi sinh: 2
+
+Nhap thong tin thi sinh thu 1:
+Nhap ten: Danh Tran
+Nhap MSSV: 20210004
+Nhap ngay sinh (dd mm yyyy): 7 7 2002
+Nhap diem Toan: 4
+Nhap diem Van: 3.5
+Nhap diem Anh: 2
+
+Nhap thong tin thi sinh thu 2:
+Nhap ten: Emily Vo
+Nhap MSSV: 20210005
+Nhap ngay sinh (dd mm yyyy): 10 5 2001
+Nhap diem Toan: 5
+Nhap diem Van: 4
+Nhap diem Anh: 3.5
+
+Danh sach thi sinh co tong diem lon hon 15:
+
+Thong tin thi sinh co tong diem cao nhat (MSSV: 20210005):
+Ten: Emily Vo
+MSSV: 20210005
+Ngay sinh: 10/5/2001
+Diem Toan: 5, Diem Van: 4, Diem Anh: 3.5
+Tong diem: 12.5
+'''
+-----------------------
+*Test3: 
++) Input: 
+'''
+5
+Alex Tran
+20210011
+1 1 2000
+6.0
+6.0
+6.0
+
+Jamie Ho
+20210012
+2 2 2001
+7.0
+5.0
+6.0
+
+Kelly Bui
+20210013
+3 3 2002
+8.0
+4.5
+5.5
+
+Lee Nguyen
+20210014
+4 4 2003
+6.5
+5.5
+6.0
+
+Tracy Vo
+20210015
+5 5 2004
+5.0
+7.0
+6.0
+'''
++) Output:
+'''
+Nhap so luong thi sinh: 5
+
+Nhap thong tin thi sinh thu 1:
+Nhap ten: Alex Tran
+Nhap MSSV: 20210011
+Nhap ngay sinh (dd mm yyyy): 1 1 2000
+Nhap diem Toan: 6
+Nhap diem Van: 6
+Nhap diem Anh: 6
+
+Nhap thong tin thi sinh thu 2:
+Nhap ten: Jamie Ho
+Nhap MSSV: 20210012
+Nhap ngay sinh (dd mm yyyy): 2 2 2001
+Nhap diem Toan: 7
+Nhap diem Van: 5
+Nhap diem Anh: 6
+
+Nhap thong tin thi sinh thu 3:
+Nhap ten: Kelly Bui
+Nhap MSSV: 20210013
+Nhap ngay sinh (dd mm yyyy): 3 3 2002
+Nhap diem Toan: 8
+Nhap diem Van: 4.5
+Nhap diem Anh: 5.5
+
+Nhap thong tin thi sinh thu 4:
+Nhap ten: Lee Nguyen
+Nhap MSSV: 20210014
+Nhap ngay sinh (dd mm yyyy): 4 4 2003
+Nhap diem Toan: 6.5
+Nhap diem Van: 5.5
+Nhap diem Anh: 6
+
+Nhap thong tin thi sinh thu 5:
+Nhap ten: Tracy Vo
+Nhap MSSV: 20210015
+Nhap ngay sinh (dd mm yyyy): 5 5 2004
+Nhap diem Toan: 5
+Nhap diem Van: 7
+Nhap diem Anh: 6
+
+Danh sach thi sinh co tong diem lon hon 15:
+Ten: Alex Tran
+MSSV: 20210011
+Ngay sinh: 1/1/2000
+Diem Toan: 6, Diem Van: 6, Diem Anh: 6
+Tong diem: 18
+
+Ten: Jamie Ho
+MSSV: 20210012
+Ngay sinh: 2/2/2001
+Diem Toan: 7, Diem Van: 5, Diem Anh: 6
+Tong diem: 18
+
+Ten: Kelly Bui
+MSSV: 20210013
+Ngay sinh: 3/3/2002
+Diem Toan: 8, Diem Van: 4.5, Diem Anh: 5.5
+Tong diem: 18
+
+Ten: Lee Nguyen
+MSSV: 20210014
+Ngay sinh: 4/4/2003
+Diem Toan: 6.5, Diem Van: 5.5, Diem Anh: 6
+Tong diem: 18
+
+Ten: Tracy Vo
+MSSV: 20210015
+Ngay sinh: 5/5/2004
+Diem Toan: 5, Diem Van: 7, Diem Anh: 6
+Tong diem: 18
+
+Thong tin thi sinh co tong diem cao nhat (MSSV: 20210011):
+Ten: Alex Tran
+MSSV: 20210011
+Ngay sinh: 1/1/2000
+Diem Toan: 6, Diem Van: 6, Diem Anh: 6
+Tong diem: 18
+'''
+-----------------------
+*Test4: 
++) Input: 
+'''
+4
+Minh Le
+20210006
+12 12 2000
+7.0
+8.0
+6.0
+
+An Vo
+20210007
+3 8 2002
+4.0
+5.0
+6.5
+
+Bao Nguyen
+20210008
+18 1 2001
+8.0
+8.5
+7.5
+
+Quynh Pham
+20210009
+22 11 2003
+3.0
+4.5
+5.0
+'''
++) Output:
+'''
+Nhap so luong thi sinh: 4
+
+Nhap thong tin thi sinh thu 1:
+Nhap ten: Minh Le
+Nhap MSSV: 20210006
+Nhap ngay sinh (dd mm yyyy): 12 12 2000
+Nhap diem Toan: 7
+Nhap diem Van: 8
+Nhap diem Anh: 6
+
+Nhap thong tin thi sinh thu 2:
+Nhap ten: An Vo
+Nhap MSSV: 20210007
+Nhap ngay sinh (dd mm yyyy): 3 8 2002
+Nhap diem Toan: 4
+Nhap diem Van: 5
+Nhap diem Anh: 6.5
+
+Nhap thong tin thi sinh thu 3:
+Nhap ten: Bao Nguyen
+Nhap MSSV: 20210008
+Nhap ngay sinh (dd mm yyyy): 18 1 2001
+Nhap diem Toan: 8
+Nhap diem Van: 8.5
+Nhap diem Anh: 7.5
+
+Nhap thong tin thi sinh thu 4:
+Nhap ten: Quynh Pham
+Nhap MSSV: 20210009
+Nhap ngay sinh (dd mm yyyy): 22 11 2003
+Nhap diem Toan: 3
+Nhap diem Van: 4.5
+Nhap diem Anh: 5
+
+Danh sach thi sinh co tong diem lon hon 15:
+Ten: Minh Le
+MSSV: 20210006
+Ngay sinh: 12/12/2000
+Diem Toan: 7, Diem Van: 8, Diem Anh: 6
+Tong diem: 21
+
+Ten: Bao Nguyen
+MSSV: 20210008
+Ngay sinh: 18/1/2001
+Diem Toan: 8, Diem Van: 8.5, Diem Anh: 7.5
+Tong diem: 24
+
+Thong tin thi sinh co tong diem cao nhat (MSSV: 20210008):
+Ten: Bao Nguyen
+MSSV: 20210008
+Ngay sinh: 18/1/2001
+Diem Toan: 8, Diem Van: 8.5, Diem Anh: 7.5
+Tong diem: 24
+'''
+-----------------------
+*Test5: 
++) Input: 
+'''
+1
+Khoa Bui
+20210010
+20 6 2000
+5.0
+5.0
+5.0
+'''
++) Output:
+'''
+Nhap so luong thi sinh: 1
+
+Nhap thong tin thi sinh thu 1:
+Nhap ten: Khoa Bui
+Nhap MSSV: 20210010
+Nhap ngay sinh (dd mm yyyy): 20 6 2000
+Nhap diem Toan: 5
+Nhap diem Van: 5
+Nhap diem Anh: 5
+
+Danh sach thi sinh co tong diem lon hon 15:
+
+Thong tin thi sinh co tong diem cao nhat (MSSV: 20210010):
+Ten: Khoa Bui
+MSSV: 20210010
+Ngay sinh: 20/6/2000
+Diem Toan: 5, Diem Van: 5, Diem Anh: 5
+Tong diem: 15
+
+'''
