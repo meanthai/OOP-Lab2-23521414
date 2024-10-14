@@ -1,1 +1,65 @@
-
+*Test1: 
++) Input: 
+'''
+Nhap so dinh cua da giac (n > 2): 3
+Nhap toa do dinh thu 1 (x y): 0 0
+Nhap toa do dinh thu 2 (x y): 4 0
+Nhap toa do dinh thu 3 (x y): 2 3
+'''
++) Output:
+'''
+Dien tich da giac la: 6
+'''
+-----------------------
+*Test2: 
++) Input: 
+'''
+Nhap so dinh cua da giac (n > 2): 4
+Nhap toa do dinh thu 1 (x y): 0 0
+Nhap toa do dinh thu 2 (x y): 4 0
+Nhap toa do dinh thu 3 (x y): 4 3
+Nhap toa do dinh thu 4 (x y): 0 3
+'''
++) Output:
+'''
+Dien tich da giac la: 12
+'''
+-----------------------
+*Test3: 
++) Input: 
+'''
+Nhap so dinh cua da giac (n > 2): 5
+Nhap toa do dinh thu 1 (x y): 0 0
+Nhap toa do dinh thu 2 (x y): 3 1
+Nhap toa do dinh thu 3 (x y): 4 4
+Nhap toa do dinh thu 4 (x y): 1 5
+Nhap toa do dinh thu 5 (x y): -1 2
+'''
++) Output:
+'''
+Dien tich da giac la: 15
+'''
+-----------------------
+*Test4: 
++) Input: 
+'''
+Nhap so dinh cua da giac (n > 2): 2
+'''
++) Output:
+'''
+khong hop le
+'''
+-----------------------
+*Test5: 
++) Input: 
+'''
+Nhap so dinh cua da giac (n > 2): 4
+Nhap toa do dinh thu 1 (x y): 1 1
+Nhap toa do dinh thu 2 (x y): 5 1
+Nhap toa do dinh thu 3 (x y): 4 3
+Nhap toa do dinh thu 4 (x y): 2 4
+'''
++) Output:
+'''
+Dien tich da giac la: 10
+'''
