@@ -1,1 +1,75 @@
 
+*Test1: 
++) Input: 
+'''
+Nhap toa do 3 dinh tam giac (x1 y1 x2 y2 x3 y3): 0 0 3 0 3 4
+Nhap goc tịnh tien (tinh bang do): 0
+Nhap do dai tịnh tien: 5
+'''
++) Output:
+'''
+Nhap toa do 3 dinh tam giac (x1 y1 x2 y2 x3 y3): 0 0 3 0 3 4
+Nhap goc tịnh tien (tinh bang do): 0
+Nhap do dai tịnh tien: 5
+Toa do tam giac sau khi tịnh tien: (5, 0), (8, 0), (8, 4)
+'''
+-----------------------
+*Test2: 
++) Input: 
+'''
+Nhap toa do 3 dinh tam giac (x1 y1 x2 y2 x3 y3): 1 1 2 1 1 2
+Nhap goc tịnh tien (tinh bang do): 90
+Nhap do dai tịnh tien: 2
+'''
++) Output:
+'''
+Nhap toa do 3 dinh tam giac (x1 y1 x2 y2 x3 y3): 1 1 2 1 1 2
+Nhap goc tịnh tien (tinh bang do): 90
+Nhap do dai tịnh tien: 2
+Toa do tam giac sau khi tịnh tien: (1, 3), (2, 3), (1, 4)
+'''
+-----------------------
+*Test3: 
++) Input: 
+'''
+Nhap toa do 3 dinh tam giac (x1 y1 x2 y2 x3 y3): 0 0 1 0 0 1
+Nhap goc tịnh tien (tinh bang do): 45
+Nhap do dai tịnh tien: 2
+'''
++) Output:
+'''
+Nhap toa do 3 dinh tam giac (x1 y1 x2 y2 x3 y3): 0 0 1 0 0 1
+Nhap goc tịnh tien (tinh bang do): 45
+Nhap do dai tịnh tien: 2
+Toa do tam giac sau khi tịnh tien: (1.41421, 1.41421), (2.41421, 1.41421), (1.41421, 2.41421)
+'''
+-----------------------
+*Test4: 
++) Input: 
+'''
+Nhap toa do 3 dinh tam giac (x1 y1 x2 y2 x3 y3): 2 3 5 3 2 6
+Nhap goc tịnh tien (tinh bang do): 180
+Nhap do dai tịnh tien: 3
+'''
++) Output:
+'''
+Nhap toa do 3 dinh tam giac (x1 y1 x2 y2 x3 y3): 2 3 5 3 2 6
+Nhap goc tịnh tien (tinh bang do): 180
+Nhap do dai tịnh tien: 3
+Toa do tam giac sau khi tịnh tien: (-1, 3), (2, 3), (-1, 6)
+'''
+-----------------------
+*Test5: 
++) Input: 
+'''
+Nhap toa do 3 dinh tam giac (x1 y1 x2 y2 x3 y3): 3 3 6 3 3 6
+Nhap goc tịnh tien (tinh bang do): 270
+Nhap do dai tịnh tien: 4
+'''
++) Output:
+'''
+Nhap toa do 3 dinh tam giac (x1 y1 x2 y2 x3 y3): 3 3 6 3 3 6
+Nhap goc tịnh tien (tinh bang do): 270
+Nhap do dai tịnh tien: 4
+Toa do tam giac sau khi tịnh tien: (3, -1), (6, -1), (3, 2)
+'''
