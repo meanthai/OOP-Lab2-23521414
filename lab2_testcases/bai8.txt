@@ -1,0 +1,85 @@
+*Test1: 
++) Input: 
+'''
+Nhap chi thi (0: them, 1: xoa phan tu dau tien, 2: xoa tat ca, 3: thay the, -1: ket thuc): 0
+Nhap gia tri can them: 5.5
+Nhap chi thi (0: them, 1: xoa phan tu dau tien, 2: xoa tat ca, 3: thay the, -1: ket thuc): 0
+Nhap gia tri can them: 10.0
+Nhap chi thi (0: them, 1: xoa phan tu dau tien, 2: xoa tat ca, 3: thay the, -1: ket thuc): 0
+Nhap gia tri can them: 15.0
+Nhap chi thi (0: them, 1: xoa phan tu dau tien, 2: xoa tat ca, 3: thay the, -1: ket thuc): -1
+'''
++) Output:
+'''
+[5.5,10,15]
+'''
+-----------------------
+*Test2: 
++) Input: 
+'''
+Nhap chi thi (0: them, 1: xoa phan tu dau tien, 2: xoa tat ca, 3: thay the, -1: ket thuc): 0
+Nhap gia tri can them: 1.0
+Nhap chi thi (0: them, 1: xoa phan tu dau tien, 2: xoa tat ca, 3: thay the, -1: ket thuc): 0
+Nhap gia tri can them: 2.0
+Nhap chi thi (0: them, 1: xoa phan tu dau tien, 2: xoa tat ca, 3: thay the, -1: ket thuc): 0
+Nhap gia tri can them: 1.0
+Nhap chi thi (0: them, 1: xoa phan tu dau tien, 2: xoa tat ca, 3: thay the, -1: ket thuc): 1
+Nhap gia tri can xoa: 1.0
+Nhap chi thi (0: them, 1: xoa phan tu dau tien, 2: xoa tat ca, 3: thay the, -1: ket thuc): -1
+'''
++) Output:
+'''
+[2,1]
+'''
+-----------------------
+*Test3: 
++) Input: 
+'''
+Nhap chi thi (0: them, 1: xoa phan tu dau tien, 2: xoa tat ca, 3: thay the, -1: ket thuc): 0
+Nhap gia tri can them: 3.0
+Nhap chi thi (0: them, 1: xoa phan tu dau tien, 2: xoa tat ca, 3: thay the, -1: ket thuc): 0
+Nhap gia tri can them: 3.0
+Nhap chi thi (0: them, 1: xoa phan tu dau tien, 2: xoa tat ca, 3: thay the, -1: ket thuc): 2
+Nhap gia tri can xoa: 3.0
+Nhap chi thi (0: them, 1: xoa phan tu dau tien, 2: xoa tat ca, 3: thay the, -1: ket thuc): -1
+'''
++) Output:
+'''
+Khong co phan tu nao bang 3 trong list.
+[]
+'''
+-----------------------
+*Test4: 
++) Input: 
+'''
+Nhap chi thi (0: them, 1: xoa phan tu dau tien, 2: xoa tat ca, 3: thay the, -1: ket thuc): 0
+Nhap gia tri can them: 7.5
+Nhap chi thi (0: them, 1: xoa phan tu dau tien, 2: xoa tat ca, 3: thay the, -1: ket thuc): 0
+Nhap gia tri can them: 8.0
+Nhap chi thi (0: them, 1: xoa phan tu dau tien, 2: xoa tat ca, 3: thay the, -1: ket thuc): 3
+Nhap vi tri can thay the: 1
+Nhap gia tri moi: 9.5
+Nhap chi thi (0: them, 1: xoa phan tu dau tien, 2: xoa tat ca, 3: thay the, -1: ket thuc): -1
+'''
++) Output:
+'''
+[7.5,9.5]
+'''
+-----------------------
+*Test5: 
++) Input: 
+'''
+Nhap chi thi (0: them, 1: xoa phan tu dau tien, 2: xoa tat ca, 3: thay the, -1: ket thuc): 0
+Nhap gia tri can them: 4.0
+Nhap chi thi (0: them, 1: xoa phan tu dau tien, 2: xoa tat ca, 3: thay the, -1: ket thuc): 0
+Nhap gia tri can them: 5.0
+Nhap chi thi (0: them, 1: xoa phan tu dau tien, 2: xoa tat ca, 3: thay the, -1: ket thuc): 3
+Nhap vi tri can thay the: 2
+Nhap gia tri moi: 10.0
+Nhap chi thi (0: them, 1: xoa phan tu dau tien, 2: xoa tat ca, 3: thay the, -1: ket thuc): -1
+'''
++) Output:
+'''
+Vi tri khong hop le.
+[4,5]
+'''
