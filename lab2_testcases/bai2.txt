@@ -1,0 +1,184 @@
+*Test1: 
++) Input: 
+'''
+0 0 0 4 3 0
+'''
++) Output:
+'''
+Nhap toa do dinh A:
++)Nhap hoanh do: 0
++)Nhap tung do: 0
+Nhap toa do dinh B:
++)Nhap hoanh do: 0
++)Nhap tung do: 4
+Nhap toa do dinh C:
++)Nhap hoanh do: 3
++)Nhap tung do: 0
+
+Toa do tam giac ban dau:
+Toa do dinh A: (0, 0)
+Toa do dinh B: (0, 4)
+Toa do dinh C: (3, 0)
+
+Toa do tam giac sau khi tinh tien (2, 3):
+Toa do dinh A: (2, 3)
+Toa do dinh B: (2, 7)
+Toa do dinh C: (5, 3)
+
+Toa do tam giac sau khi phong to voi ti le 2:
+Toa do dinh A: (4, 6)
+Toa do dinh B: (4, 14)
+Toa do dinh C: (10, 6)
+
+Toa do tam giac sau khi thu nho voi ti le 2:
+Toa do dinh A: (2, 3)
+Toa do dinh B: (2, 7)
+Toa do dinh C: (5, 3)
+
+Toa do tam giac sau khi quay 90 do:
+Toa do dinh A: (-3, 2)
+Toa do dinh B: (-7, 2)
+Toa do dinh C: (-3, 5)
+'''
+-----------------------
+*Test2: 
++) Input: 
+'''
+1 1 4 1 1 4
+'''
++) Output:
+'''
+Nhap toa do dinh A:
++)Nhap hoanh do: 1
++)Nhap tung do: 1
+Nhap toa do dinh B:
++)Nhap hoanh do: 4
++)Nhap tung do: 1
+Nhap toa do dinh C:
++)Nhap hoanh do: 1
++)Nhap tung do: 4
+
+Toa do tam giac ban dau:
+Toa do dinh A: (1, 1)
+Toa do dinh B: (4, 1)
+Toa do dinh C: (1, 4)
+
+Toa do tam giac sau khi tinh tien (-1, -1):
+Toa do dinh A: (0, 0)
+Toa do dinh B: (3, 0)
+Toa do dinh C: (0, 3)
+
+Toa do tam giac sau khi phong to voi ti le 0.5:
+Toa do dinh A: (0, 0)
+Toa do dinh B: (1, 0)
+Toa do dinh C: (0, 1.5)
+
+Toa do tam giac sau khi quay 180 do:
+Toa do dinh A: (0, 0)
+Toa do dinh B: (-1, 0)
+Toa do dinh C: (0, -1.5)
+'''
+-----------------------
+*Test3: 
++) Input: 
+'''
+2 3 5 6 7 8
+'''
++) Output:
+'''
+Nhap toa do dinh A:
++)Nhap hoanh do: 2
++)Nhap tung do: 3
+Nhap toa do dinh B:
++)Nhap hoanh do: 5
++)Nhap tung do: 6
+Nhap toa do dinh C:
++)Nhap hoanh do: 7
++)Nhap tung do: 8
+
+Toa do tam giac ban dau:
+Toa do dinh A: (2, 3)
+Toa do dinh B: (5, 6)
+Toa do dinh C: (7, 8)
+
+Toa do tam giac sau khi tinh tien (-3, -3):
+Toa do dinh A: (-1, 0)
+Toa do dinh B: (2, 3)
+Toa do dinh C: (4, 5)
+
+Toa do tam giac sau khi phong to voi ti le 3:
+Toa do dinh A: (-3, 0)
+Toa do dinh B: (6, 9)
+Toa do dinh C: (12, 15)
+
+Toa do tam giac sau khi quay 45 do:
+Toa do dinh A: (-2.12132, -2.12132)
+Toa do dinh B: (-2.12132, 10.6066)
+Toa do dinh C: (-2.12132, 19.0919)
+'''
+-----------------------
+*Test4: 
++) Input: 
+'''
+2 4 6 8 10 12
+'''
++) Output:
+'''
+Nhap toa do dinh A:
++)Nhap hoanh do: 2
++)Nhap tung do: 4
+Nhap toa do dinh B:
++)Nhap hoanh do: 6
++)Nhap tung do: 8
+Nhap toa do dinh C:
++)Nhap hoanh do: 10
++)Nhap tung do: 12
+
+Toa do tam giac ban dau:
+Toa do dinh A: (2, 4)
+Toa do dinh B: (6, 8)
+Toa do dinh C: (10, 12)
+
+Toa do tam giac sau khi phong to voi ti le 0.5:
+Toa do dinh A: (1, 2)
+Toa do dinh B: (3, 4)
+Toa do dinh C: (5, 6)
+
+Toa do tam giac sau khi quay 270 do:
+Toa do dinh A: (-2, 1)
+Toa do dinh B: (-4, 3)
+Toa do dinh C: (-6, 5)
+'''
+-----------------------
+*Test5: 
++) Input: 
+'''
+0 0 5 0 0 5
+'''
++) Output:
+'''
+Nhap toa do dinh A:
++)Nhap hoanh do: 0
++)Nhap tung do: 0
+Nhap toa do dinh B:
++)Nhap hoanh do: 5
++)Nhap tung do: 0
+Nhap toa do dinh C:
++)Nhap hoanh do: 0
++)Nhap tung do: 5
+
+Toa do tam giac ban dau:
+Toa do dinh A: (0, 0)
+Toa do dinh B: (5, 0)
+Toa do dinh C: (0, 5)
+
+Toa do tam giac sau khi phong to voi ti le 1.5:
+Toa do dinh A: (0, 0)
+Toa do dinh B: (7.5, 0)
+Toa do dinh C: (0, 7.5)
+
+Toa do tam giac sau khi quay 360 do:
+Toa do dinh A: (0, 0)
+Toa do dinh B: (7.5, 0)
+Toa do dinh C: (0, 7.5)
+'''
