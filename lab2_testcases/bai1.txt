@@ -1,0 +1,68 @@
+*Test1: 
++) Input: 
+'''
+Diem p1;
+p1.Xuat();
+
+int hoanh = p1.GetHoanhDo();
+int tung = p1.GetTungDo();
+
+cout << "Hoanh: " << hoanh << ", Tung: " << tung << endl;
+'''
++) Output:
+'''
+Diem(0, 0)
+Hoanh: 0, Tung: 0
+'''
+-----------------------
+*Test2: 
++) Input: 
+'''
+Diem p2(5, 7);
+p2.Xuat();
+
+p2.SetHoanhDo(10);
+p2.SetTungDo(20);
+p2.Xuat();
+'''
++) Output:
+'''
+Diem(5, 7)
+Diem(10, 20)
+'''
+-----------------------
+*Test3: 
++) Input: 
+'''
+Diem p3(12, 15);
+Diem p4(p3);
+p4.Xuat();
+'''
++) Output:
+'''
+Diem(12, 15)
+'''
+-----------------------
+*Test4: 
++) Input: 
+'''
+Diem p5(4, 6);
+p5.TinhTien(3, 5);
+p5.Xuat();
+'''
++) Output:
+'''
+Diem(7, 11)
+'''
+-----------------------
+*Test5: 
++) Input: 
+'''
+Diem p6(10, -4);
+p6.TinhTien(-6, 0);
+p6.Xuat();
+'''
++) Output:
+'''
+Diem(4, -4)
+'''
